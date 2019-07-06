@@ -1,0 +1,15 @@
+x=linspace(0,2*pi,1000);
+y=sin(x);
+h=plot(x,y,'-.g','LineWidth',7.0);
+get(h);
+% set(gca,'XLim',[0,2*pi]);
+% set(gca,'YLim',[-1.2,1.2]);
+xlim([0,2*pi]);
+ylim([-1.2,1.2]);
+set(gca,'FontSize',15);
+% set(gca,'XTick',0:pi/2:2*pi);
+% set(gca,'XTickLabel',0:90:360);
+set(gca,'FontName','manual');
+set(gca,'XTickLabel',{'0','\pi/2','\pi','3\pi/2','2\pi'});
+% set(h,'LineStyle','-.','LineWidth',7.0,'Color','g');
+% delete(h);
