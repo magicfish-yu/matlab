@@ -1,0 +1,2 @@
+load stockreturns;
+boxplot(stocks(:,:))
